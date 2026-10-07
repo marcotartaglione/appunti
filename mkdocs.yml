@@ -1,0 +1,40 @@
+site_name: Appunti
+site_description: Raccolta di appunti per la triennale in Ingegneria Informatica
+site_author: Marco Tartaglione
+
+theme:
+  name: material
+  language: it
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Passa alla modalità chiara
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Passa alla modalità scura
+
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.download
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+copyright: >
+  Questo lavoro è distribuito sotto Licenza 
+  <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">
+    Creative Commons CC BY-NC-SA 4.0
+  </a>.
