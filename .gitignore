@@ -19,3 +19,9 @@ yarn-debug.log*
 
 *.tmp
 *~*.pdf
+
+__pycache__/
+*.pyc
+
+venv/
+.venv/

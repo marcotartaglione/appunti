@@ -43,6 +43,15 @@ theme:
     - content.action.download
     - content.code.copy
 
+extra:
+  social:
+    - icon: fontawesome/brands/paypal
+      link: https://paypal.me/tartaglionemarco
+      name: Se vuoi offrirmi un caffè
+    - icon: fontawesome/brands/github
+      link: https://github.com/marcotartaglione
+      name: GitHub
+
 extra_css:
   - stylesheets/extra.css
 
