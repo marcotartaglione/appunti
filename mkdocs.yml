@@ -5,18 +5,25 @@ site_author: Marco Tartaglione
 theme:
   name: material
   language: it
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Passa alla modalità chiara
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Passa alla modalità scura
@@ -24,14 +31,32 @@ theme:
   features:
     - navigation.indexes
     - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - navigation.progress
+    - toc.follow
     - search.suggest
     - search.highlight
     - content.action.download
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
 
 copyright: >
   Questo lavoro è distribuito sotto Licenza 

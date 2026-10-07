@@ -4,9 +4,4 @@
 
 ---
 
-<iframe
-    src="../Tecnologie_Web.pdf"
-    width="100%"
-    height="800px"
-    style="border: none; border-radius: 8px;">
-</iframe>
+<iframe class="pdf" src="../Tecnologie_Web.pdf"></iframe>

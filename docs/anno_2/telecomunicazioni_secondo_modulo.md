@@ -4,9 +4,4 @@
 
 ---
 
-<iframe
-    src="../Telecomunicazioni_secondo_modulo.pdf"
-    width="100%"
-    height="800px"
-    style="border: none; border-radius: 8px;">
-</iframe>
+<iframe class="pdf" src="../Telecomunicazioni_secondo_modulo.pdf"></iframe>

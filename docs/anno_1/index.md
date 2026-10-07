@@ -1,3 +1,4 @@
-# 1️⃣ Primo anno
+# Primo anno
 
-Al momento non sono disponibili appunti sul primo anno.
+!!! info "In arrivo"
+Gli appunti del primo anno non sono ancora stati caricati.

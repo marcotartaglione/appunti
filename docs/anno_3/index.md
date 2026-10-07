@@ -1,7 +1,20 @@
-# 3️⃣ Terzo anno
+# Terzo anno
 
-Riepilogo dei corsi e dei relativi appunti disponibili:
+<div class="cards" markdown>
 
-* [Ingegneria del Software (Domande)](ingegneria_del_software_domande.md)
-* [Reti di Calcolatori](reti_di_calcolatori.md)
-* [Tecnologie Web](tecnologie_web.md)
+<div markdown>
+### :material-source-branch: [Ingegneria del Software](ingegneria_del_software_domande.md)
+Raccolta di domande.
+</div>
+
+<div markdown>
+### :material-lan: [Reti di Calcolatori](reti_di_calcolatori.md)
+Appunti del corso.
+</div>
+
+<div markdown>
+### :material-web: [Tecnologie Web](tecnologie_web.md)
+Appunti del corso.
+</div>
+
+</div>
