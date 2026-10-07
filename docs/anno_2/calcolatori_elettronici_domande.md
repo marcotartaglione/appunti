@@ -5,7 +5,7 @@
 ---
 
 <iframe
-    src="Calcolatori_Elettronici_Domande.pdf"
+    src="../Calcolatori_Elettronici_Domande.pdf"
     width="100%"
     height="800px"
     style="border: none; border-radius: 8px;">
