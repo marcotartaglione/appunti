@@ -4,7 +4,7 @@ hide:
 - toc
 ---
 
-# :material-school: Appunti
+# :material-school: Ingegneria informatica
 
 Raccolta di appunti per la triennale in **Ingegneria Informatica**.
 Tutti i documenti sono consultabili direttamente nel browser e scaricabili in PDF.
