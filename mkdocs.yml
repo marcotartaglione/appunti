@@ -51,6 +51,14 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/marcotartaglione
       name: GitHub
+  analytics:
+    provider: google
+    property: G-PLV1GZ74SC
+  consent:
+    title: Cookie e privacy
+    description: >-
+      Questo sito usa i cookie per analizzare le visite
+      e migliorare i contenuti.
 
 extra_css:
   - stylesheets/extra.css
